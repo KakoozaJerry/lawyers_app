@@ -3,16 +3,31 @@
     <header class="section-header">
       <div class="section-wrapper">
         <h1>
-          <svg class="section-icon"><use xlink:href="assets/img/icons.svg#icon-windows"></use></svg>
-          Handling Window Crashes and Hangs
+          <!-- <svg class="section-icon"><use xlink:href="assets/img/icons.svg#icon-windows"></use></svg> -->
+          Debentures and Mortgages
         </h1>
-        <h3>The <code>BrowserWindow</code> module will emit events when the renderer process crashes or hangs. You can listen for these events and give users the chance to reload, wait or close that window.</h3>
+        <h3>Scale of fees for Charges affecting land such as debentures and Mortgages.</h3>
+        <p>Payable to the advocate of the <code>chargee</code></p>
+        <div class="demo-controls demo">
+          <form>
+          <label for="name">Enter Land Price : </label>
+            <input type="text" name="name" id="price" />
+          </form>
+           
+        
+           <button class="demo-button" id="openbutton" style="margin-left: 20%;">Evaluate</button>
+           <br>
+          
+        </div>
+        <div>
+          <p id="school"></p>
+        </div>
 
-        <p>Open the <a href="http://electron.atom.io/docs/api/browser-window">full API documentation<span class="u-visible-to-screen-reader">(opens in new window)</span></a> in your browser.</p>
+       <!--  <p>Open the <a href="http://electron.atom.io/docs/api/browser-window">full API documentation<span class="u-visible-to-screen-reader">(opens in new window)</span></a> in your browser.</p> -->
       </div>
     </header>
 
-    <div class="demo">
+    <!-- <div class="demo">
       <div class="demo-wrapper">
         <button id="new-window-crashes-demo-toggle" class="js-container-target demo-toggle-button">Relaunch window after the process crashes
           <div class="demo-meta u-avoid-clicks">Supports: Win, macOS, Linux <span class="demo-meta-divider">|</span> Process: Main</div>
@@ -55,13 +70,13 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
 
     <script type="text/javascript">
-      require('./renderer-process/windows/process-crash')
-      require('./renderer-process/windows/process-hang')
+      // require('./renderer-process/windows/process-crash')
+      // require('./renderer-process/windows/process-hang')
     </script>
 
   </section>
